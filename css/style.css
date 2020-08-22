@@ -1,0 +1,76 @@
+.app {
+    background: #ffffff;
+    display: grid;  
+    grid-template-areas: 
+        "cabecalho"
+        "conteudo"
+        "rodape";
+    grid-template-columns: auto;
+    grid-template-rows: 50px 100vh auto; 
+}
+
+.cabecalho {
+background: #6986f7;
+    grid-area: cabecalho;
+}
+
+.conteudo {
+   
+    grid-area: conteudo;
+}
+
+.rodape {
+
+    grid-area: rodape;
+}
+
+.rodape{
+    font-size: 46%;
+}
+
+/*-----------------------------------------------------------------*/
+/*----------------------------cadastro------------------------------------------*/
+
+
+main{
+    width: 940px; 
+   margin: 0 auto;
+
+}
+form{
+    margin:40px 0;
+}
+
+form label ,form legend {
+    display: block;
+    font-size: 20px;
+    margin:  0 0 10px;
+}
+.input-padrao{
+    display: block;
+    margin: 20px;
+    padding:10px 25px ;
+    width: 50%;
+}
+.checkbox{
+    margin: 20px 0;
+}
+
+.formulario{
+    width: 40%;
+    padding: 15px 0;
+    color: white;
+    font-weight:bold;
+    font-size: 17px;
+    border:none;
+    border-radius: 7px;
+    transition: 1s all;
+    cursor: pointer;
+    background: #6986f7;
+    
+    
+    
+    
+    
+    
+}
