@@ -1,7 +1,7 @@
 .destaques {
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 33.33% 33.33% 33.33%;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: 33.33% 33.33% 33.33%;
     height: calc(100vh - 50px);
 }
 .destaques__principal {
@@ -41,5 +41,58 @@
 }
 
 /*-----------------------------------------------------------*/
+form{
+    border-block-color: #ffffff;
+}
+.img-cadastro{
+    background-image: url('../imagem.img/cadastro.PNG') ;
+    background-repeat: no-repeat;
+    background-size: contain;
+  
+
+}
+.input-cadastro{
+    width: 813px;
+    margin: 0px 0px 0px 47%;
+}
+
+
+
+.email{
+    font-size:12px;
+}
+strong{
+    color: red;
+}
+
+form label ,form legend {
+    display: block;
+    font-size: 20px;
+    margin:  0 0 10px;
+}
+.input-padrao{
+    display: block;
+    margin: 25px 0px 0px 1px;;
+    padding:10px 25px ;
+    width: 50%;
+}
+.checkbox{
+    margin: 20px 0;
+}
+
+.formulario{
+    width: 40%;
+    padding: 15px 0;
+    color: white;
+    font-weight:bold;
+    font-size: 17px;
+    border:none;
+    border-radius: 7px;
+    transition: 1s all;
+    cursor: pointer;
+    background: #6986f7;
+    
+}
+
 
 
