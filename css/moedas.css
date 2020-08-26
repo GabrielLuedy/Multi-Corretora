@@ -1,0 +1,83 @@
+.moeda {
+    display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: 50% 50%;
+    height: calc(100vh - 100px);
+}
+.moeda1 {
+    background: url('../imagem.img/bit01.PNG') center / cover no-repeat;
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
+    width: 49%;
+    height: 75%;
+}
+.caixa {
+    align-items: flex-end;
+    display: flex;
+    justify-content: center;
+}
+.b__titulo{
+    background:transparent;
+    color: #000000;
+    padding: 3px 0px 8% 4px;
+    text-align: center;
+    width: 100%;
+
+}
+.b1{
+    background:transparent;
+}
+
+.moeda2 {
+    background: url('../imagem.img/bit02.PNG') center / cover no-repeat;
+    grid-column: 2 / 2;
+    grid-row: 1 / 1;
+    width: 49%;
+    height: 75%;
+}
+
+.moeda3 {
+    background: url('../imagem.img/bit03.PNG') center / cover no-repeat;
+    grid-column: 3 / 3;
+    grid-row: 1 / 1;
+    width: 49%;
+    height: 75%;
+}
+
+.moeda4 {
+    background: url('../imagem.img/bit04.PNG') center / cover no-repeat;
+    grid-column: 4 / 4;
+    grid-row: 1 / 1;
+    width: 49%;
+    height: 75%;
+}
+
+.moeda5 {
+    background: url('../imagem.img/bit05.PNG') center / cover no-repeat;
+    grid-column: 1 /1;
+    grid-row: 2 / 2;
+    width: 49%;
+    height: 75%;
+    
+}
+.moeda6 {
+    background: url('../imagem.img/bit06.PNG') center / cover no-repeat;
+    grid-column: 2 / 2;
+    grid-row: 2 / 2;
+    width: 49%;
+    height: 75%;
+}
+.moeda7 {
+    background: url('../imagem.img/bit07.PNG') center / cover no-repeat;
+    grid-column: 3 / 3;
+    grid-row:  2/ 2;
+    width: 49%;
+    height: 75%;
+}
+.moeda8 {
+    background: url('../imagem.img/bit08.PNG') center / cover no-repeat;
+    grid-column: 4 / 4;
+    grid-row: 2 / 2;
+    width: 49%;
+    height: 75%;
+}
