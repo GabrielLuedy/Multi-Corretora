@@ -1,0 +1,221 @@
+
+header {
+    background: #bbbbbb;
+     padding: 20px 0;
+    
+}
+
+.caixa{
+    position: relative;
+   width: 940px; 
+   margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top:110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+text-transform: uppercase;
+color: #000000;
+font-weight:bold;
+font-size: 22px;
+text-decoration: none;
+}
+nav a:hover{
+    color: blue;
+    text-decoration: underline ;
+
+}
+nav a:active{
+    color: chartreuse;
+
+}
+.produtos{
+    width: 940px; 
+    margin: 0 auto;
+    padding: 50px 0;
+
+}
+.produtos :hover{
+    color: blue;
+    text-decoration: underline ;
+   
+}
+.produtos :active{
+    color: chartreuse;
+    
+}
+
+.produtos li {
+display:inline-block;
+width: 25%;
+vertical-align:end ;
+margin:0 1.5%;
+padding:30px 20px;
+
+border-radius: 20px;
+}
+
+
+
+.produtos li:active{
+
+    border-color: chartreuse;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold
+    ;
+}
+
+.produto-descricao    
+{
+    font-size: 18px;
+}
+
+
+
+footer legend {
+    text-align: center;
+    font-size: 30px;
+}
+
+.header {
+    border: 1px solid #ffffff;
+    }
+    header {
+    background-color: #333333;
+    }
+    header ~ .header {
+    border: 1px solid #ff0000;
+    }
+
+main{
+    width: 940px; 
+   margin: 0 auto;
+
+}
+form{
+    margin:40px 0;
+}
+
+form label ,form legend {
+    display: block;
+    font-size: 20px;
+    margin:  0 0 10px;
+}
+.input-padrao{
+    display: block;
+    margin: 20px;
+    padding:10px 25px ;
+    width: 50%;
+}
+.checkbox{
+    margin: 20px 0;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background: #555555;
+    color: white;
+    font-weight:bold;
+    font-size: 17px;
+    border:none;
+    border-radius: 7px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:active{
+    font-size: 23px;
+}
+
+table{
+    margin: 20px 0 40px;
+}
+thead{
+    background: #555555;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+td {
+    border: 3px solid #000000;
+    padding:8px 15px ;
+}
+
+/* css da home */
+
+
+
+section {
+/*     background: #bbbbbb;
+ */    font-weight: bold;
+}
+
+section p{
+    text-align: center; 
+} 
+
+section h1,h2{
+    text-align: center; 
+    font-size: 30px;
+   
+    color: white;
+    font-weight: bold;
+}
+
+.Principais{
+    text-align: center; 
+    font-size: 30px;
+    padding: 20px 18px;
+    display: inline-block;
+}
+.item strong{
+    color: #ffffff;
+}
+
+
+ .tipo {
+     display:inline-block
+ }
+
+
+ .imagem2{
+    width: 431px;
+    height: 618px;
+    margin: 0 20px 20px 0;
+    float: left;
+    clear: left;
+
+ }
+
+
+ul li{
+   padding: 10px 0px;
+  
+}
+
+.pe{
+padding: 10px 10px;
+margin: 1px 0px 0px 0px;
+
+}
+.imagem3{
+ position: absolute;
+ left: 74%;
+ top: 105%;
+}
+
+

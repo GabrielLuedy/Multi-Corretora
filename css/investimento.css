@@ -1,0 +1,197 @@
+.app{
+    
+    display: grid;
+        grid-template-columns:250PX 30% 30% 30% ;
+        grid-template-rows:16% 16% 16% 16% 16% 16%;
+        height: calc(100% - 1px);
+      
+}
+
+
+.cabecalho_invest{
+    background: url("../imagem.img/cabecalho-invest.PNG") center / cover no-repeat;
+    grid-column: 2/5;
+    grid-row: 1/ 1;
+}
+
+
+
+
+
+
+.moeda1{
+
+    grid-column: 2/2;
+    grid-row: 2/ 5;
+    width: 30%;
+    height: 53%;
+
+}
+.moeda2 {
+   
+    grid-column: 2 / 2;
+    grid-row: 4/ 8;
+    width: 30%;
+    height: 53%;
+}
+.moeda3 {
+   
+    grid-column: 3/3 ;
+    grid-row: 2/ 5;
+    width: 30%;
+    height: 53%;
+}
+
+.moeda4 {
+    background: url() center / cover no-repeat;
+    grid-column: 3 / 3;
+    grid-row: 4 / 8;
+    width: 30%;
+    height: 53%;
+   
+}
+
+.moeda5 {
+    background: url() center / cover no-repeat;
+    grid-column: 4 /4;
+    grid-row: 2 / 5;
+    width: 30%;
+    height: 53%;
+    
+}
+.moeda6 {
+   
+    grid-column: 4 / 4;
+    grid-row: 4 / 8;
+    width: 30%;
+    height: 53%;
+    border-radius: 1px;
+}
+
+.caixa{
+    align-items: flex-end;
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+    padding: 10px;
+    color: transparent;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Home  {
+
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
+   
+    
+
+}
+
+.Carteira
+{
+    grid-column: 1 /1;
+    grid-row: 2 / 2;
+    
+}
+
+
+
+.Investimento{
+    grid-column: 1 /1;
+    grid-row: 3 / 3;
+    
+}
+
+
+
+.Ferramenta{
+    grid-column: 1 /1;
+    grid-row: 4 / 4;
+    
+}
+
+
+
+.Noticia{
+    grid-column: 1 /1;
+    grid-row: 5 / 5;
+    
+}
+
+
+
+.Suporte{
+    grid-column: 1 /1;
+    grid-row: 6 / 6;
+    
+}
+
+
+.Home,.Carteira,.Investimento,.Ferramenta,.Noticia,.Suporte
+{
+    width: 50%;
+    height: 100%;
+    background:#6986f7 ;
+    padding: 3px 0px 33px  4px;
+    align-items: flex-end;
+    display: flex;
+    justify-content: center
+  
+}
+
+
+
+
+/*______________*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
