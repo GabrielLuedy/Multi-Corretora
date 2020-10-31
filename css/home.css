@@ -31,7 +31,7 @@
 .enviar{
     grid-row: 3/3;
     grid-column: 2/3;
-    background: #6986f7;
+    background: #ffffff;
     color: white;
     font-weight:bold;
     font-size: 62px;
@@ -90,7 +90,7 @@ form label ,form legend {
     border-radius: 7px;
     transition: 1s all;
     cursor: pointer;
-    background: #6986f7;
+    background: #ffffff;
     
 }
 
@@ -104,7 +104,7 @@ form label ,form legend {
 
 
 .servoco{
-    background: #6986f7;
+    background: #ffffff;
 }
 
 
