@@ -59,16 +59,21 @@ form{
 
 
 .email{
-    font-size:12px;
+    font-size:100%;
 }
 strong{
     color: red;
+    font-size: 100%;
 }
-
+.password{
+    color: black;
+    font-size: 100%;
+}
 form label ,form legend {
     display: block;
     font-size: 20px;
     margin:  0 0 10px;
+    color: red;
 }
 .input-padrao{
     display: block;
@@ -78,6 +83,7 @@ form label ,form legend {
 }
 .checkbox{
     margin: 20px 0;
+    color: red;
 }
 
 .formulario{
@@ -90,7 +96,7 @@ form label ,form legend {
     border-radius: 7px;
     transition: 1s all;
     cursor: pointer;
-    background: #ffffff;
+    background: black;
     
 }
 
@@ -106,6 +112,15 @@ form label ,form legend {
 .servoco{
     background: #ffffff;
 }
-
+ @media (min-width: 280px){
+     .login{
+         width: 15%;
+       float: inline-end;
+       position: absolute;
+       left: 20%;
+       top: 5%;
+   }
+     
+ }
 
 
